@@ -1,0 +1,37 @@
+Este proyecto fue una experiencia de learning by doing.
+
+No intenté aprender primero todo Python, Machine Learning y Computer Vision antes de comenzar. Empecé con una pregunta concreta:
+
+¿Puedo construir una IA que reconozca razas de perros?
+
+A partir de ahí fui aprendiendo lo que necesitaba para resolver cada problema.
+
+Utilicé IA, incluyendo ChatGPT, como una herramienta de apoyo durante el desarrollo. No la utilicé solamente para obtener un resultado final: fui preguntando qué significaban los conceptos, por qué ocurrían los errores y cómo funcionaban las diferentes partes del proyecto.
+
+El proyecto me permitió experimentar personalmente con todo el proceso:
+
+Idea
+ ↓
+Dataset
+ ↓
+Código
+ ↓
+Errores
+ ↓
+Correcciones
+ ↓
+Entrenamiento
+ ↓
+Evaluación
+ ↓
+Predicciones
+ ↓
+Interfaz
+ ↓
+Proyecto funcionando
+
+Mi mayor aprendizaje no fue solamente conseguir una accuracy determinada.
+
+Fue descubrir que puedo aprender una tecnología construyendo algo con ella.
+
+Este proyecto fue pequeño y experimental, pero para mí representa un paso importante: pasar de utilizar tecnología a empezar a construirla y entender cómo funciona.
