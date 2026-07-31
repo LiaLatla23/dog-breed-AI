@@ -1,0 +1,126 @@
+Python y consola
+
+Durante el proyecto aprendí a trabajar de forma más práctica con Python y la terminal.
+
+Aprendí a:
+
+Crear y ejecutar archivos .py desde la consola.
+Abrir y modificar archivos utilizando el Bloc de notas desde la terminal.
+Utilizar comandos de navegación y gestión de archivos.
+Instalar librerías mediante pip.
+Crear entornos virtuales con venv.
+Trabajar con rutas y archivos.
+Entender que un entorno virtual permite mantener las dependencias de un proyecto separadas del Python instalado globalmente.
+
+También descubrí que muchas tareas que normalmente hago mediante una interfaz gráfica pueden realizarse directamente desde la consola.
+
+🌐 Internet y Python
+
+Aprendí que Python puede comunicarse con servicios de Internet mediante librerías y protocolos como HTTP y HTTPS.
+
+Utilicé herramientas de Python para descargar un dataset grande y también aprendí, mediante los errores encontrados, que las descargas pueden fallar por problemas como:
+
+Timeouts.
+Conexiones interrumpidas.
+Errores de permisos.
+Problemas con servidores remotos.
+
+Esto me ayudó a entender que un error de conexión no necesariamente significa que el código esté mal.
+
+🤖 Machine Learning
+
+Aprendí los conceptos básicos del flujo de un proyecto de Machine Learning:
+
+Dataset.
+Clases.
+Labels.
+Entrenamiento.
+Validation.
+Testing.
+Epochs.
+Accuracy.
+Inference.
+Transfer Learning.
+
+Una de las cosas más importantes que entendí fue que el modelo no necesita que yo le diga manualmente qué es cada imagen una por una.
+
+La estructura de las clases y los datos de entrenamiento permiten que el modelo aprenda patrones a partir de ejemplos.
+
+🧠 Transfer Learning
+
+Aprendí que no siempre es necesario entrenar un modelo desde cero.
+
+Utilicé ResNet18, un modelo que ya había sido entrenado previamente, y lo adapté a las necesidades de este proyecto.
+
+Esto me permitió aprovechar conocimiento previamente aprendido por el modelo y utilizarlo como punto de partida para mi problema específico.
+
+🔄 Epochs
+
+Aprendí que un epoch representa una pasada completa por los datos de entrenamiento.
+
+En este proyecto utilicé 10 epochs.
+
+También observé que el rendimiento no aumenta necesariamente de manera constante en cada epoch. En algunas iteraciones la accuracy de validation subió y en otras bajó.
+
+Esto me ayudó a entender que entrenar un modelo no significa simplemente que cada ronda será automáticamente mejor que la anterior.
+
+📈 Accuracy
+
+Aprendí a interpretar accuracy como una proporción de predicciones correctas sobre las muestras evaluadas.
+
+Mi modelo obtuvo:
+
+75.97% de accuracy en test.
+
+Esto también me enseñó que una métrica debe interpretarse dentro del contexto del dataset y del problema.
+
+🧪 Experimentación
+
+Una de las partes más importantes del proyecto fue probar el modelo con imágenes que no había utilizado durante el entrenamiento.
+
+Por ejemplo:
+
+Una fotografía de un Beagle fue correctamente clasificada como Beagle.
+Una fotografía de un perro que no pertenecía claramente a ninguna de las seis clases fue clasificada como German Shepherd.
+
+Este tipo de pruebas me permitió descubrir limitaciones del modelo que no habría entendido simplemente leyendo teoría.
+
+💻 Git y GitHub
+
+Durante el proyecto también aprendí los conceptos básicos de Git y GitHub.
+
+Aprendí:
+
+git status
+git add
+git commit
+git push
+git pull
+git remote
+git branch
+.gitignore
+
+Entendí que:
+
+Commit: guarda un estado del proyecto en Git localmente.
+Push: envía los commits locales al repositorio remoto.
+Pull: trae cambios del repositorio remoto a mi copia local.
+.gitignore: permite indicar qué archivos Git no debería incluir en el repositorio.
+
+También aprendí a conectar un proyecto local con un repositorio de GitHub.
+
+🧰 Herramientas nuevas
+
+Durante este proyecto conocí y utilicé herramientas que anteriormente no conocía:
+
+Python
+PyTorch
+ResNet18
+Gradio
+Pillow
+Git
+GitHub
+Virtual environments
+Terminal / Command Prompt
+
+No aprendí todas estas herramientas completamente durante este proyecto. Algunas fueron simplemente mi primera introducción a ellas, pero ahora sé qué problema resuelven y puedo seguir aprendiendo sobre ellas.
